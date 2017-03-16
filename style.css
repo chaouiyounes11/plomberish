@@ -1,0 +1,169 @@
+/*fonts*/
+
+@font-face
+  {
+  font-family: "american";
+  src: url("fonts/american.ttf");
+  }
+
+@font-face
+  {
+  font-family: "snow";
+  src: url("fonts/snow.ttf");
+  }
+/*header*/
+header
+  {
+  text-align: center;
+  }
+.mario
+  {
+  width: 18%;
+  margin: auto;
+  display: inline-block;
+  vertical-align: middle;
+  }
+
+.plombe
+  {
+  display: inline-block;
+  font-size: 4em;
+  float: left;
+  margin-left: 3em;
+  font-family: inherit;
+  text-shadow: 5px 8px 10px grey;
+  }
+
+  .rish
+    {
+    display: inline-block;
+    font-size: 4em;
+    float: right;
+    margin-right: 3em;
+    font-family: inherit;
+    text-shadow: 5px 8px 10px grey;
+    }
+
+    /*bar de navigation AKA menu*/
+
+
+    nav ul
+    {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    background-color: #333333;
+    clear: both;
+    text-align: center;
+    }
+
+    nav li
+    {
+    display: inline-block;
+    width: 69px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px ;
+    border-right: 1px solid #CCCCCC;
+    text-align: center;
+    line-height: 40px;
+    }
+
+    #home:hover
+      {
+      background-color: rgb(25, 55, 165);
+      }
+    #tarif:hover
+      {
+      background-color: rgb(172, 101, 9);
+      }
+    #contact:hover
+    {
+    background-color: rgb(166, 25, 29);
+    }
+    #team:hover
+    {
+    background-color: rgb(40, 136, 45);
+    }
+
+    nav li a
+      {
+
+      text-decoration: none;
+      color: #FFFFFF;
+      }
+
+/*section*/
+
+    .tuyaux
+      {
+      display: block;
+      margin: auto;
+      margin-top: 1.7em;
+      width: 25%;
+      }
+/*présentation entreprise*/
+
+  h1
+  {
+  text-align: center;
+  font-size: 5em;
+  font-family: american;
+  color: rgb(210, 45, 45);
+  }
+
+  #prez
+  {
+  border: 10px outset rgb(153, 102, 102);
+  margin: 0px 15em;
+  font-size: 120%;
+  text-align: center;
+  font-weight: lighter;
+  padding: 5px 25px;
+  font-family: american;
+
+  }
+
+  h2
+  {
+  text-align: center;
+  font-size: 45px;
+  font-family: snow;
+  color: rgb(166, 89, 89);
+  }
+
+  /*footer*/
+
+  footer
+  {
+  margin: 9em;
+  display: inline;
+  }
+
+/*galleries photo*/
+
+#gallerie
+  {
+  display: block;
+  list-style-type: none;
+  margin: auto;
+  vertical-align: middle;
+  width: 60%;
+  margin-left: 45%;
+  position: relative;
+  float: left;
+  }
+
+  #gallerie:nth-child(4n)
+  {
+  clear:left;
+  }
+
+  #brick, #death, #egg, #shell
+  {
+  width: 10%;
+  height: 5%;
+  display: inline-block;
+  margin: auto;
+  vertical-align: middle;
+  }
