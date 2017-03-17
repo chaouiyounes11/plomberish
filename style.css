@@ -198,3 +198,33 @@ footer
   {
   margin-top: 20em;
   }
+
+/*tableaux tarif.html*/
+
+table
+  {
+  margin: auto;
+  border: none;
+  }
+table, th, td, td
+ {
+  border: 2px solid black;
+  text-align: center;
+  border-collapse:collapse;
+  padding: 6px;
+ }
+
+caption
+  {
+  text-decoration: underline;
+  }
+
+  #tab, #tabb
+    {
+    margin-top: 10%;
+    }
+
+  #footertarif
+    {
+    margin-top: 5em;
+    }
