@@ -46,7 +46,6 @@ header
 
     /*bar de navigation AKA menu*/
 
-
     nav ul
     {
     padding: 0px;
@@ -70,21 +69,22 @@ header
     }
 
     #home:hover
-      {
-      background-color: rgb(25, 55, 165);
-      }
-    #tarif:hover
-      {
-      background-color: rgb(172, 101, 9);
-      }
-    #contact:hover
     {
-    background-color: rgb(166, 25, 29);
+    background-color: rgb(25, 55, 165);
     }
-    #team:hover
+  #tarif:hover
     {
-    background-color: rgb(40, 136, 45);
+    background-color: rgb(172, 101, 9);
     }
+  #contact:hover
+  {
+  background-color: rgb(166, 25, 29);
+  }
+  #team:hover
+  {
+  background-color: rgb(40, 136, 45);
+}
+
 
     nav li a
       {
@@ -132,38 +132,63 @@ header
   color: rgb(166, 89, 89);
   }
 
-  /*footer*/
-
-  footer
-  {
-  margin: 9em;
-  display: inline;
-  }
 
 /*galleries photo*/
 
 #gallerie
   {
-  display: block;
-  list-style-type: none;
-  margin: auto;
-  vertical-align: middle;
-  width: 60%;
-  margin-left: 45%;
-  position: relative;
-  float: left;
+  margin-left: 28%;
+  margin-bottom: 10em;
+  width: 100%;
   }
 
-  #gallerie:nth-child(4n)
+
+
+  ol li
+    {
+    position:relative;float:left;
+    width:100px;
+    height:100px;
+    padding:10px;
+    list-style:none;
+    }
+
+  ol li a
+    {
+    display:block;overflow:hidden;
+    width:100px;height:100px;
+    margin-top:0px;margin-left:0px;
+    border:0px solid rgba(0,0,0,0.7);
+    transition-property:width,height,margin,z-index,border;
+    transition-duration:0.4s;
+    }
+
+ol li a:hover
   {
-  clear:left;
+  position:absolute;
+  width:200px;height:200px;
+  margin-top:-56px;margin-left:-56px;
+  z-index:100;
+  border:6px solid rgba(0,0,0,0.7);
   }
 
-  #brick, #death, #egg, #shell
+  ol li a img
+    {
+    position:absolute;
+    width:100px;height:100px;z-index:20;
+    transition-property:width,height,z-index;
+    transition-duration:0.4s;
+    }
+
+  ol li a:hover img
+    {
+    width:200px;height:200px;
+    z-index:100;
+    }
+
+/*footer*/
+
+footer
   {
-  width: 10%;
-  height: 5%;
-  display: inline-block;
-  margin: auto;
-  vertical-align: middle;
+  margin-top: 15em;
   }
