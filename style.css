@@ -214,9 +214,27 @@ table, th, td, td
   padding: 6px;
  }
 
+#tabb th
+  {
+  background-color: rgb(25, 55, 165);
+  }
+
+#tab th
+  {
+  background-color: rgb(40, 136, 45);
+  }
+
+#tab td:nth-child(3)
+  {
+  background-color: rgb(172, 101, 9);
+  }
+
+
 caption
   {
-  text-decoration: underline;
+  border: 3px inset red;
+  background-color: rgb(166, 25, 29);
+  font-weight: bolder;
   }
 
   #tab, #tabb
