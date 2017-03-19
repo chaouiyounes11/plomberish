@@ -114,7 +114,8 @@ header
 
   #prez
   {
-  border: 10px outset rgb(153, 102, 102);
+  border: 10px outset silver;
+  box-shadow: 10px 5px 5px black;
   margin: 0px 15em;
   font-size: 120%;
   text-align: center;
@@ -129,7 +130,7 @@ header
   text-align: center;
   font-size: 45px;
   font-family: snow;
-  color: rgb(166, 89, 89);
+  color: rgb(25, 55, 165);
   }
 
 
@@ -343,14 +344,25 @@ caption
 
 /* THE TEAM team.html */
 
+
+
 .gallerie
   {
+  display: inline-block;
   margin: auto;
-  margin-bottom: 10em;
+  margin-bottom: 3em;
+  margin-left: 37%;
   width: 100%;
   }
 
 .galerie
   {
+  display: inline-block;
   margin: auto;
+  margin-left: 37%;
+  }
+
+#footerteam
+  {
+  margin-top: 16%;
   }
