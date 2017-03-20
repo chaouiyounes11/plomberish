@@ -371,3 +371,10 @@ caption
   {
   margin-top: 16%;
   }
+
+  /*body*/
+
+  body
+    {
+    overflow-x: hidden;
+    }
